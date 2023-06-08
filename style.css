@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.splash-page {
+    height: 100vh;
+}
+
+.knight-icon {
+    font-size: 6rem;
+}
+
+.services-image {
+    max-height: 60vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.white-card {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(83, 83, 83, 0.3);
+}
+
+/* SECTION Utiliy classes */
+
+.anchor-decoration {
+    color: black;
+    text-decoration: none;
+}
+
+.largest-font {
+    font-size: 6rem;
+}
+
+.large-font {
+    font-size: 3rem;
+}
+
+.small-font {
+    font-size: 1rem;
+}
+
+.thick-font {
+    font-weight: 400;
+}
+
+.thin-font {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+@media (max-width:768px) {
+    .largest-font {
+        font-size: 3rem;
+    }
+}
